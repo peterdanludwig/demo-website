@@ -84,8 +84,8 @@ body {
     align-items: center;
     height: 100%;
     text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .img-text-wrapper .subtitle {
@@ -106,11 +106,13 @@ body {
 
 .img-lighten {
     transition: 0.5s;
-    filter: brightness(100%);
+    filter: brightness(70%);
 }
 
 .logo-wrapper img {
-    width: 85%;
+    object-fit: scale-down;
+    height: 100px;
+    max-width: 85%;
     margin-bottom: 20px;
   }
 
